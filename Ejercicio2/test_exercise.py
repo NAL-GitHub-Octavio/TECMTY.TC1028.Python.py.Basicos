@@ -1,5 +1,5 @@
 import pytest
-from src.exercise import main
+from src import main
 
 def test_exercise(capsys):
     main()
